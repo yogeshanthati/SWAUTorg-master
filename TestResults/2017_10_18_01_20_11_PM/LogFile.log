@@ -1,0 +1,11 @@
+ INFO | 2017-10-18 13:20:11,786 | Common.java | 73 | Startup activites...
+ INFO | 2017-10-18 13:20:11,790 | Common.java | 73 | Test Output Directory creation successful :D:\my test\SWAUTorg-master\TestResults\2017_10_18_01_20_11_PM
+ INFO | 2017-10-18 13:20:11,791 | Common.java | 73 | Log File creation successful : LogFile.log
+ INFO | 2017-10-18 13:20:12,068 | Common.java | 73 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-10-18 13:20:12,156 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-10-18 14:23:58,041 | Common.java | 73 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-10-18 14:23:58,043 | Common.java | 73 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-10-18 14:23:58,044 | Common.java | 73 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-10-18 14:23:58,045 | Common.java | 73 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-10-18 14:23:58,046 | Common.java | 73 | Element time out set
+ INFO | 2017-10-18 14:23:58,046 | Common.java | 73 | ##### Start of Test Case : Login to Adactin Application #####

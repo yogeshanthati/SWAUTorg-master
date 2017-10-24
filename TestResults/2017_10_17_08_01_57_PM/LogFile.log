@@ -1,0 +1,22 @@
+ INFO | 2017-10-17 20:01:57,824 | Common.java | 73 | Startup activites...
+ INFO | 2017-10-17 20:01:57,826 | Common.java | 73 | Test Output Directory creation successful :D:\my test\SWAUTorg-master\TestResults\2017_10_17_08_01_57_PM
+ INFO | 2017-10-17 20:01:57,826 | Common.java | 73 | Log File creation successful : LogFile.log
+ INFO | 2017-10-17 20:01:58,024 | Common.java | 73 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-10-17 20:01:58,099 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-10-17 20:01:58,231 | Common.java | 73 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-10-17 20:01:58,231 | Common.java | 73 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-10-17 20:01:58,232 | Common.java | 73 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-10-17 20:01:58,232 | Common.java | 73 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-10-17 20:01:58,232 | Common.java | 73 | Element time out set
+ INFO | 2017-10-17 20:01:58,233 | Common.java | 73 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2017-10-17 20:01:58,233 | Common.java | 73 | Test Case Name: TC_001
+ INFO | 2017-10-17 20:01:58,233 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-10-17 20:01:58,273 | Common.java | 73 | Test Data Set Name: TC_001
+ INFO | 2017-10-17 20:01:58,274 | Common.java | 73 | Execution Flag: Execute
+ INFO | 2017-10-17 20:01:58,274 | Common.java | 73 | Test Data Set Name: TC_001_01
+ INFO | 2017-10-17 20:01:58,275 | Common.java | 73 | Execution Flag: YES
+ INFO | 2017-10-17 20:01:58,275 | Common.java | 73 | Test Data Set Name: TC_001_02
+ INFO | 2017-10-17 20:01:58,275 | Common.java | 73 | Execution Flag: YES
+ INFO | 2017-10-17 20:01:58,275 | Common.java | 73 | Test Data Set Name: 
+ INFO | 2017-10-17 20:01:58,275 | Common.java | 73 | Execution Flag: 
+ INFO | 2017-10-17 20:01:58,278 | Common.java | 73 | Getting value of Browser from Test Configuration file : Chrome

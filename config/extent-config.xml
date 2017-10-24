@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>        
+        <theme>MASONRY</theme>
+    
+        
+        <encoding>UTF-8</encoding>
+        
+        
+        <protocol>https</protocol>
+        
+        
+        <documentTitle>FHLB-PGH Automation Report</documentTitle>
+        
+        
+        <reportName>FHLB-PGH Automation	</reportName>
+        
+        
+        <reportHeadline> -- Regression Test Cases</reportHeadline>
+        
+        
+        <dateFormat>yyyy-MM-dd</dateFormat>
+        
+        
+        <timeFormat>HH:mm:ss</timeFormat>
+     
+        <styles>
+         	.reportName { padding-left: 10px; } 
+        </styles>
+    </configuration>
+</extentreports>

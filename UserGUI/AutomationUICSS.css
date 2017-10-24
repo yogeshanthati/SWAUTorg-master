@@ -1,0 +1,44 @@
+	table {
+		float:left;
+		background:#FFFACD;
+		margin-left:10px;
+		font-size: 8pt;
+		font-family: Arial;
+
+	}
+	
+	#sunlogo {
+	    height:110;
+		width:130;
+	    float:left;	
+		padding:5px;
+		background-position: 50% 8%;;	
+	}
+
+	#title {
+		float:left;
+		padding:10px;
+		margin-left: 100px;
+	}
+	#content {
+		color:white;
+		clear:both;
+		padding:5px;	 	 
+	}
+	
+	form fieldset input[type="text"], input[type="submit"],a {
+		background-color: #FFFACD;
+		border: none;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		color: #1E90FF;
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		height: 50px;
+		outline: none;
+		padding: 7px 15px 7px 15px;
+		width: 150px;
+		-webkit-appearance:none;
+		font-size:25px
+		}

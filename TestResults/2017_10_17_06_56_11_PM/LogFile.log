@@ -1,0 +1,5 @@
+ INFO | 2017-10-17 18:56:19,333 | Common.java | 73 | Startup activites...
+ INFO | 2017-10-17 18:56:19,338 | Common.java | 73 | Test Output Directory creation successful :D:\my test\SWAUTorg-master\TestResults\2017_10_17_06_56_11_PM
+ INFO | 2017-10-17 18:56:19,339 | Common.java | 73 | Log File creation successful : LogFile.log
+ INFO | 2017-10-17 18:56:20,351 | Common.java | 73 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-10-17 18:56:21,391 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls

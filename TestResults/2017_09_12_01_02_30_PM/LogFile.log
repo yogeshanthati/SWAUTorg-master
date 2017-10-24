@@ -1,0 +1,112 @@
+ INFO | 2017-09-12 13:02:31,232 | Common.java | 71 | Startup activites...
+ INFO | 2017-09-12 13:02:31,235 | Common.java | 71 | Test Output Directory creation successful :D:\Prakashs_Backup\DemoWorkspaceFinal\SWAUTJenkins\TestResults\2017_09_12_01_02_30_PM
+ INFO | 2017-09-12 13:02:31,235 | Common.java | 71 | Log File creation successful : LogFile.log
+ INFO | 2017-09-12 13:02:31,826 | Common.java | 71 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-09-12 13:02:31,978 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-09-12 13:02:32,246 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-09-12 13:02:32,246 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-09-12 13:02:32,247 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-09-12 13:02:32,247 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-09-12 13:02:32,247 | Common.java | 71 | Element time out set
+ INFO | 2017-09-12 13:02:32,247 | Common.java | 71 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2017-09-12 13:02:32,248 | Common.java | 71 | Test Case Name: TC_001
+ INFO | 2017-09-12 13:02:32,248 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-09-12 13:02:32,286 | Common.java | 71 | Test Data Set Name: TC_001
+ INFO | 2017-09-12 13:02:32,286 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-09-12 13:02:32,286 | Common.java | 71 | Test Data Set Name: TC_001_01
+ INFO | 2017-09-12 13:02:32,288 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-09-12 13:02:32,288 | Common.java | 71 | Test Data Set Name: TC_001_02
+ INFO | 2017-09-12 13:02:32,288 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-09-12 13:02:32,289 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-09-12 13:02:32,289 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-09-12 13:02:32,319 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-09-12 13:02:36,312 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-09-12 13:02:47,844 | Common.java | 71 | Entered text -> prakashs
+ERROR | 2017-09-12 13:02:47,845 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:47,845 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-09-12 13:02:47,845 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:48,076 | Common.java | 71 | Entered text -> prakash
+ERROR | 2017-09-12 13:02:48,076 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:48,076 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-09-12 13:02:48,076 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:51,076 | Common.java | 71 | Clicked on WebElement-Login
+ERROR | 2017-09-12 13:02:51,077 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:51,181 | Common.java | 71 | Successfully logged in to the application
+ERROR | 2017-09-12 13:02:51,182 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:52,536 | Common.java | 71 | Clicked on WebElement-Logout Link
+ERROR | 2017-09-12 13:02:52,536 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:53,107 | Common.java | 71 | Clicked on WebElement-Login Again Link
+ERROR | 2017-09-12 13:02:53,108 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:53,345 | Common.java | 71 | Entered text -> prakashs
+ERROR | 2017-09-12 13:02:53,346 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:53,346 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-09-12 13:02:53,346 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:53,575 | Common.java | 71 | Entered text -> wrongPassword
+ERROR | 2017-09-12 13:02:53,576 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:53,576 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-09-12 13:02:53,576 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:02:55,247 | Common.java | 71 | Clicked on WebElement-Login
+ERROR | 2017-09-12 13:02:55,247 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ERROR | 2017-09-12 13:03:02,384 | Common.java | 79 | Unable to login to application, Check Username and password
+ERROR | 2017-09-12 13:03:02,385 | Common.java | 79 | Report step generation success : Unable to login to application, Check Username and password
+ INFO | 2017-09-12 13:03:03,176 | Common.java | 71 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2017-09-12 13:03:03,177 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-09-12 13:03:03,177 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-09-12 13:03:03,177 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-09-12 13:03:03,178 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-09-12 13:03:04,802 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-09-12 13:03:04,802 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-09-12 13:03:04,803 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-09-12 13:03:04,803 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-09-12 13:03:04,803 | Common.java | 71 | Element time out set
+ INFO | 2017-09-12 13:03:04,803 | Common.java | 71 | ##### Start of Test Case : Search a hotel #####
+ INFO | 2017-09-12 13:03:04,803 | Common.java | 71 | Test Case Name: TC_002
+ INFO | 2017-09-12 13:03:04,804 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Test Data Set Name: TC_002
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Test Data Set Name: TC_002_01
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-09-12 13:03:04,917 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-09-12 13:03:04,918 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-09-12 13:03:07,035 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-09-12 13:03:18,231 | Common.java | 71 | Entered text -> prakashs
+ERROR | 2017-09-12 13:03:18,231 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:18,231 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-09-12 13:03:18,231 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:18,447 | Common.java | 71 | Entered text -> prakash
+ERROR | 2017-09-12 13:03:18,448 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:18,448 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-09-12 13:03:18,448 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:20,991 | Common.java | 71 | Clicked on WebElement-Login
+ERROR | 2017-09-12 13:03:20,992 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:21,314 | Common.java | 71 | Selected value -Sydney from dropdown->Location
+ERROR | 2017-09-12 13:03:21,314 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:21,580 | Common.java | 71 | Selected value -Hotel Sunshine from dropdown->Hotel
+ERROR | 2017-09-12 13:03:21,581 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:21,871 | Common.java | 71 | Selected value -Deluxe from dropdown->RoomType
+ERROR | 2017-09-12 13:03:21,871 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,142 | Common.java | 71 | Selected value -2 - Two from dropdown->NumRooms
+ERROR | 2017-09-12 13:03:22,143 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,378 | Common.java | 71 | Entered text -> 27/04/2017
+ERROR | 2017-09-12 13:03:22,378 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,379 | Common.java | 71 | Selected Check In Date as ->27/04/2017
+ERROR | 2017-09-12 13:03:22,379 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,606 | Common.java | 71 | Entered text -> 02/05/2017
+ERROR | 2017-09-12 13:03:22,607 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,607 | Common.java | 71 | Selected Check Out Date as ->02/05/2017
+ERROR | 2017-09-12 13:03:22,607 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:22,855 | Common.java | 71 | Selected value -4 - Four from dropdown->Adults
+ERROR | 2017-09-12 13:03:22,855 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:23,124 | Common.java | 71 | Selected value -4 - Four from dropdown->Children
+ERROR | 2017-09-12 13:03:23,124 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:24,203 | Common.java | 71 | Clicked on WebElement-Search
+ERROR | 2017-09-12 13:03:24,203 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:24,203 | Common.java | 71 | Clicked on Seach button
+ERROR | 2017-09-12 13:03:24,203 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-09-12 13:03:25,680 | Common.java | 71 | Getting value of SendMail(Yes/No) from Test Configuration file : No
+ INFO | 2017-09-12 13:03:25,681 | Common.java | 71 | Getting value of SendMsg(Yes/No) from Test Configuration file : No
+ INFO | 2017-09-12 13:03:25,681 | Common.java | 71 | Getting value of VoiceCall(Yes/No) from Test Configuration file : No
+ INFO | 2017-09-12 13:03:25,824 | Common.java | 71 | ###################################
+ INFO | 2017-09-12 13:03:25,824 | Common.java | 71 | Script Execution Complete
+ INFO | 2017-09-12 13:03:25,824 | Common.java | 71 | ####################################

@@ -1,0 +1,211 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="AutomationUIJavascript.js"></script>
+
+<style>
+	table {
+		float:left;
+		background:#FFFACD;
+		margin-left:80px;
+		font-size: 8pt;
+		font-family: Arial;
+
+	}
+</style>
+</head>
+
+<body bgcolor="#FFFACD">
+
+<form name="TesConfigDetails">
+<center>
+<table style="width:39%"  cellpadding= "2px" border="1">
+  <tr>
+    <th>Description:</th>
+    <th>Keyword</th>
+	<th>Value:</th>
+  </tr>
+  
+  <tr>
+    <th rowspan="4">Application Configuration:</th>
+    <td>Testing_on</td>
+	<td>
+		<input type="radio" name="Testing_on" value="Mobile" id="Testing_on_yes" checked checked onclick="Displayfield()">Mobile
+		<input type="radio" name="Testing_on" value="Web" id="Testing_on_no" onclick="Hidefield()">Web
+
+		
+	</td>
+  </tr>
+  <tr>
+    <td>PlatFormName</td>
+	<td>
+	<select name="PlatFormName">
+		<option value=""></option>
+		<option value="Android">Android</option>
+		<option value="IOS">IOS</option>
+	</select>
+	</td>
+  </tr>
+   <tr>
+    <td>url</td>
+	<td><input type="url" name="url" size="20"></td>
+  </tr>
+   <tr>
+    <td>Browser</td>
+	<td>
+	<select name="Browser">
+		<option value="IE">IE</option>
+		<option value="Firefox">Firefox</option>
+		<option value="Chrome">Chrome</option>
+		<option value="Safari">Safari</option>
+	</select>
+	</td>
+  </tr>
+  
+  <tr>
+    <th rowspan="2">Appium Server Configuration:</th>
+    <td>IpAddress</td>
+	<td><input type="text" name="IpAddress" size="20"></td>
+  </tr>
+  <tr>
+    <td>PortNumber</td>
+	<td><input type="text" name="PortNumber" step="1" min="1" size="20"></td>
+  </tr>
+  
+  <tr>
+    <th rowspan="1">Test data file:</th>
+    <td>TestDataFile</td>
+	<td><input type="text" name="TestDataFile" size="20"></td>
+  </tr>
+  
+   <tr>
+    <th rowspan="7">Manage Wait times (Seconds):</th>
+    <td>PageLoadWaitTime</td>
+	<td><input type="text" name="PageLoadWaitTime" step="1" min="1" size="20"></td>
+  </tr>
+  <tr>
+    <td>AppiumTimeOut</td>
+	<td><input type="text" name="AppiumTimeOut" step="1" min="1" size="20"></td>
+  </tr>
+   <tr>
+    <td>ElementLoadWaitTime</td>
+	<td><input type="text" name="ElementLoadWaitTime" step="1" min="1" size="20"></td>
+  </tr>
+   <tr>
+    <td>ImplicitlyWaitTime</td>
+	<td><input type="text" name="ImplicitlyWaitTime" step="1" min="1" size="20"></td>
+  </tr>
+  <tr>
+    <td>TextLoadWaitTime</td>
+	<td><input type="text" name="TextLoadWaitTime" step="1" min="1" size="20"></td>
+  </tr>
+  <tr>
+    <td>ExecuteRemainingStepsOnFailure(Yes/No)</td>
+	<td>
+		<input type="radio" name="ExecuteRemainingStepsOnFailure" id = "executeYes" value="Yes" checked>Yes
+		<input type="radio" name="ExecuteRemainingStepsOnFailure" id = "executeNo" value="No">No
+
+	</td>
+  </tr>
+  <tr>
+    <td>OverideTimeoutOnFailure</td>
+	<td><input type="text" name="OverideTimeoutOnFailure" step="1" min="1" size="20"></td>
+  </tr>
+   </table>
+   
+
+<table style="width:34%"  cellpadding= "1px" border="1">
+   <tr>
+    <th rowspan="6">Mail Configuration:</th>
+	<td>SendMail(Yes/No)</td>
+	<td>
+		<input type="radio" name="SendMail" value="Yes" id="SendMailYes" checked onclick="EnableFields()">Yes
+		<input type="radio" name="SendMail" value="No" id="SendMailNo" onclick="DisableFields()">No
+	</td>
+		</tr>
+		<tr>
+    <td>Smtp HostName</td>
+	<td><input type="text" name="Smtp_HostName" size="30"></td>
+  </tr>
+  <tr>
+    <td>SenderMailId</td>
+	<td><input type="text" name="SenderMailId" size="30" placeholder="Ex: abc@domain.com"></td>
+  </tr>
+   <tr>
+    <td>SuiteName</td>
+	<td><input type="text" name="SuiteName" size="30"></td>
+  </tr>
+   
+  <tr>
+    <td>ToEmail</td>
+	<td><input type="text" name="ToEmail" size="30" placeholder="Add more by using ';' seperator"></td>
+  </tr>
+  <tr>
+    <td>CcEmail(Yes/No)</td>
+	<td><input type="text" name="CcEmail" size="30" placeholder="Add more by using ';' seperator">
+	</td>
+  </tr>
+
+
+<tr>
+    <th rowspan="5">Message Configuration:</th>
+    <td>HostName</td>
+	<td><input type="text" name="MsgConfHostName" size="30"></td>
+  </tr>
+  <tr>
+    <td>SenderAddress</td>
+	<td><input type="text" name="MsgConfSenderAddress" size="30"></td>
+  </tr>
+   <tr>
+    <td>UserName</td>
+	<td><input type="text" name="MsgConfUserName" size="30"></td>
+  </tr>
+   <tr>
+    <td>Password</td>
+	<td><input type="text" name="MsgConfPassword" size="30"></td>
+  </tr>
+   <tr>
+    <td>SuiteName</td>
+	<td><input type="text" name="MsgConfSuiteName" size="30"></td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Html Report Configuration:</th>
+    <td>Project_Name</td>
+	<td><input type="text" name="Project_Name" size="30"></td>
+  </tr>
+  <tr>
+    <td>Version_Name</td>
+	<td><input type="text" name="Version_Name" size="30"></td>
+  </tr>
+  
+  <tr>
+    <th rowspan="1">TestCase Configuration:</th>
+    <td>Tc_Settings_Excelpath</td>
+	<td><input type="text" name="Tc_Settings_Excelpath" size="30"></td>
+  </tr>
+  
+  <tr>
+    <th rowspan="2">Logos Path:</th>
+    <td>client_logo_path</td>
+	<td><input type="text" name="client_logo_path" size="30"></td>
+  </tr>
+  <tr>
+    <td>sun_logo_path</td>
+	<td><input type="text" name="sun_logo_path" size="30"></td>
+  </tr>
+  
+
+ </table>
+<br>
+	<input type="button" value="Get Test Config Details" width="100%" onClick="GetCellData()">
+	<br><br>
+	<input type="button" value="Save" width="100%" onClick="updatetestconfigdetails()">
+	<br><br>
+	<!--  <input type="button" name="Run" value="Run" width="100%" onclick="launchApp()"> -->
+	<br><br>
+</center>
+</form>
+<br><br>
+
+</body>
+</html>	

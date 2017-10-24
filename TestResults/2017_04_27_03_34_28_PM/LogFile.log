@@ -1,0 +1,188 @@
+ INFO | 2017-04-27 15:34:28,157 | Common.java | 71 | Startup activites...
+ INFO | 2017-04-27 15:34:28,157 | Common.java | 71 | Test Output Directory creation successful :D:\Prakashs_Backup\DemoWorkspaceFinal\SWAUTJenkins\TestResults\2017_04_27_03_34_28_PM
+ INFO | 2017-04-27 15:34:28,157 | Common.java | 71 | Log File creation successful : LogFile.log
+ INFO | 2017-04-27 15:34:28,387 | Common.java | 71 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-04-27 15:34:28,467 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Element time out set
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Test Case Name: TC_001
+ INFO | 2017-04-27 15:34:28,607 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Test Data Set Name: TC_001
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Test Data Set Name: TC_001_01
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Test Data Set Name: TC_001_02
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-04-27 15:34:28,648 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-04-27 15:34:31,206 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-04-27 15:34:34,877 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-04-27 15:34:34,879 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:34,991 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-04-27 15:34:34,991 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:37,382 | Common.java | 71 | Successfully logged in to the application
+ERROR | 2017-04-27 15:34:37,383 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:38,706 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-04-27 15:34:38,706 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:38,812 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-04-27 15:34:38,812 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ERROR | 2017-04-27 15:34:45,228 | Common.java | 79 | Unable to login to application, Check Username and password
+ERROR | 2017-04-27 15:34:45,228 | Common.java | 79 | Report step generation success : Unable to login to application, Check Username and password
+ INFO | 2017-04-27 15:34:45,905 | Common.java | 71 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2017-04-27 15:34:45,915 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-04-27 15:34:45,915 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-04-27 15:34:45,915 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-04-27 15:34:45,915 | Common.java | 71 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Element time out set
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | ##### Start of Test Case : Search a hotel #####
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Test Case Name: TC_002
+ INFO | 2017-04-27 15:34:47,801 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Test Data Set Name: TC_002
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Test Data Set Name: TC_002_01
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-04-27 15:34:47,902 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-04-27 15:34:49,909 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-04-27 15:34:53,897 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-04-27 15:34:53,897 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:54,006 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-04-27 15:34:54,007 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,127 | Common.java | 71 | selected value -Sydney from dropdown->Location
+ERROR | 2017-04-27 15:34:56,127 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,244 | Common.java | 71 | selected value -Hotel Sunshine from dropdown->Hotel
+ERROR | 2017-04-27 15:34:56,244 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,375 | Common.java | 71 | selected value -Deluxe from dropdown->RoomType
+ERROR | 2017-04-27 15:34:56,376 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,486 | Common.java | 71 | selected value -2 - Two from dropdown->NumRooms
+ERROR | 2017-04-27 15:34:56,487 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,621 | Common.java | 71 | Selected Check In Date as ->27/04/2017
+ERROR | 2017-04-27 15:34:56,621 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,734 | Common.java | 71 | Selected Check Out Date as ->02/05/2017
+ERROR | 2017-04-27 15:34:56,734 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:56,922 | Common.java | 71 | selected value -4 - Four from dropdown->Adults
+ERROR | 2017-04-27 15:34:56,922 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:57,265 | Common.java | 71 | selected value -4 - Four from dropdown->Children
+ERROR | 2017-04-27 15:34:57,265 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:34:58,222 | Common.java | 71 | Clicked on Seach button
+ERROR | 2017-04-27 15:34:58,222 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Element time out set
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | ##### Start of Test Case : Book a hotel #####
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Test Case Name: TC_003
+ INFO | 2017-04-27 15:35:00,177 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Test Data Set Name: TC_003
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Test Data Set Name: TC_003_01
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-04-27 15:35:00,248 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-04-27 15:35:02,230 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-04-27 15:35:06,397 | Common.java | 71 | Entered Username ->prakashs
+ERROR | 2017-04-27 15:35:06,397 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:06,505 | Common.java | 71 | Entered Password ->prakashs
+ERROR | 2017-04-27 15:35:06,505 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:08,703 | Common.java | 71 | selected value -Sydney from dropdown->Location
+ERROR | 2017-04-27 15:35:08,704 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:08,823 | Common.java | 71 | selected value -Hotel Sunshine from dropdown->Hotel
+ERROR | 2017-04-27 15:35:08,823 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:08,924 | Common.java | 71 | selected value -Deluxe from dropdown->RoomType
+ERROR | 2017-04-27 15:35:08,924 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:09,033 | Common.java | 71 | selected value -2 - Two from dropdown->NumRooms
+ERROR | 2017-04-27 15:35:09,033 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:09,131 | Common.java | 71 | Selected Check In Date as ->27/04/2017
+ERROR | 2017-04-27 15:35:09,131 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:09,260 | Common.java | 71 | Selected Check Out Date as ->02/05/2017
+ERROR | 2017-04-27 15:35:09,260 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:09,384 | Common.java | 71 | selected value -4 - Four from dropdown->Adults
+ERROR | 2017-04-27 15:35:09,384 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:09,490 | Common.java | 71 | selected value -4 - Four from dropdown->Children
+ERROR | 2017-04-27 15:35:09,490 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:10,156 | Common.java | 71 | Clicked on Seach button
+ERROR | 2017-04-27 15:35:10,157 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:10,686 | Common.java | 71 | Selected radio button
+ERROR | 2017-04-27 15:35:10,686 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:10,786 | Common.java | 71 | Clicked on Continue Button
+ERROR | 2017-04-27 15:35:10,786 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Element time out set
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | ##### Start of Test Case : New User Register functionality #####
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Test Case Name: TC_005
+ INFO | 2017-04-27 15:35:13,076 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Test Data Set Name: TC_005
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Test Data Set Name: TC_005_01
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-04-27 15:35:13,138 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-04-27 15:35:15,109 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-04-27 15:35:20,130 | Common.java | 71 | Clicked on link->New Registration
+ERROR | 2017-04-27 15:35:20,130 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,249 | Common.java | 71 | Entered UserName->Pramela123
+ERROR | 2017-04-27 15:35:20,249 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,352 | Common.java | 71 | Entered Password->Reset123
+ERROR | 2017-04-27 15:35:20,352 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,462 | Common.java | 71 | Re Entered Password->Reset123
+ERROR | 2017-04-27 15:35:20,462 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,558 | Common.java | 71 | Entered Full Name->G
+ERROR | 2017-04-27 15:35:20,559 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,705 | Common.java | 71 | Entered Email Address->nandinig@suntechnologies.com
+ERROR | 2017-04-27 15:35:20,705 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:20,819 | Common.java | 71 | Clicked on Agree checkbox
+ERROR | 2017-04-27 15:35:20,819 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:21,293 | Common.java | 71 | Clicked on Register Button
+ERROR | 2017-04-27 15:35:21,293 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Element time out set
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | ##### Start of Test Case : XML Validation #####
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Test Case Name: TC_006
+ INFO | 2017-04-27 15:35:22,870 | Common.java | 71 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Test Data Set Name: TC_006
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Execution Flag: Execute
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Test Data Set Name: TC_006_01
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Test Data Set Name: TC_006_02
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Execution Flag: YES
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Test Data Set Name: 
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Execution Flag: 
+ INFO | 2017-04-27 15:35:22,920 | Common.java | 71 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-04-27 15:35:24,872 | Common.java | 71 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-04-27 15:35:33,029 | Common.java | 71 | Got the Response with ReturnCodeDetails as Success
+ERROR | 2017-04-27 15:35:33,029 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:33,030 | Common.java | 71 | Country Code is matching, Expected->USA, Actual is->USA
+ERROR | 2017-04-27 15:35:33,030 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:33,030 | Common.java | 71 | Country Name is matching, Expected->United States, Actual is->United States
+ERROR | 2017-04-27 15:35:33,030 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:35,413 | Common.java | 71 | Got the Response with ReturnCodeDetails as Success
+ERROR | 2017-04-27 15:35:35,413 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:35,413 | Common.java | 71 | Country Code is matching, Expected->AUT, Actual is->AUT
+ERROR | 2017-04-27 15:35:35,413 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:35,413 | Common.java | 71 | Country Name is matching, Expected->Austria, Actual is->Austria
+ERROR | 2017-04-27 15:35:35,413 | Common.java | 86 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-04-27 15:35:37,076 | Common.java | 71 | Getting value of SendMail(Yes/No) from Test Configuration file : No
+ INFO | 2017-04-27 15:35:37,076 | Common.java | 71 | Getting value of SendMsg(Yes/No) from Test Configuration file : No
+ INFO | 2017-04-27 15:35:37,086 | Common.java | 71 | Getting value of VoiceCall(Yes/No) from Test Configuration file : No
+ INFO | 2017-04-27 15:35:37,226 | Common.java | 71 | ###################################
+ INFO | 2017-04-27 15:35:37,226 | Common.java | 71 | Script Execution Complete
+ INFO | 2017-04-27 15:35:37,226 | Common.java | 71 | ####################################

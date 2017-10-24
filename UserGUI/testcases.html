@@ -1,0 +1,131 @@
+
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="AutomationUIJavascript.js">
+</script>
+
+<style>
+	table {
+			border: 1px solid black;
+			float:left;
+			margin-left:100px;
+}
+th, td{
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+	text-align:center;
+}
+
+
+</style>
+</head>
+
+<body bgcolor="#FFFACD" onload="GetTestCaseCellData()">
+
+<form name="TestCaseDetails" >
+
+<center>
+<br><br>
+  <table width="900" border="3" cellpadding= "10" >
+  
+  <tr>
+
+	<th width="100">Serial No</th>
+	<th width="150">Module Name</th>
+	<th width="100">TestCase ID</th>
+    <th width="300">TestCase Description</th>		
+    <th width="120">Execution Flag</th>
+  </tr>
+  
+  
+  <tr>
+	<td >1</td>
+	<td>Login</td>
+	<td>TC_001</td>
+	<td>Login to Adactin Hotels</td>
+	<td align="center">
+		<select name="TC1">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+  
+  </tr>
+  
+  
+  
+  <tr>
+	
+	<td >2</td>
+	<td>Search a hotel</td>
+	<td>TC_002</td>
+	<td>Search a hotel</td>
+	<td >
+	<select name = "TC2"><option value="Yes">Yes</option><option value="No">No</option></select>	</td>
+  
+  </tr>
+  
+  
+  
+  <tr>
+	
+	<td >3</td>
+	<td>Book a hotel</td>
+	<td>TC_003</td>
+	<td>Book a hotel</td>
+	<td ><select name = "TC3"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+   
+   
+   <tr>
+	
+	<td >4</td>
+	<td>Forget Password</td>
+	<td>TC_004</td>
+	<td>Forget Password functionality</td>
+	<td ><select name = "TC4"><option value="Yes">Yes</option><option value="No">No</option>	</select>	</td>
+
+  </tr>
+  
+  
+  <tr>
+	
+	<td >5</td>
+	<td>Registration</td>
+	<td>TC_005</td>
+	<td>New User Register functionality</td>
+	<td ><select  name="TC5"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+  
+   <tr>
+	
+	<td >6</td>
+	<td>XML</td>
+	<td>TC_006</td>
+	<td>XML Validation</td>
+	<td ><select  name="TC6"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+
+ </table>
+
+
+
+
+	<!--  <input type="button" value="Get Test Status" width="100%" onClick="GetCellData()"> -->
+	
+	<br><br>
+	<input type="button" value="Save" width="100%" onClick="updatetestcasedetails()">
+	<br><br>
+	<input type="button" name="Run" value="Run" width="100%" onclick="launchApp()">
+	<br><br>
+	
+</center>
+</form>
+</body>
+</html>	

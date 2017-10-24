@@ -1,0 +1,31 @@
+ INFO | 2017-10-17 11:21:35,158 | Common.java | 73 | Startup activites...
+ INFO | 2017-10-17 11:21:35,163 | Common.java | 73 | Test Output Directory creation successful :D:\my test\SWAUTorg-master\TestResults\2017_10_17_11_21_35_AM
+ INFO | 2017-10-17 11:21:35,163 | Common.java | 73 | Log File creation successful : LogFile.log
+ INFO | 2017-10-17 11:21:35,419 | Common.java | 73 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2017-10-17 11:21:35,532 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-10-17 11:21:35,739 | Common.java | 73 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2017-10-17 11:21:35,739 | Common.java | 73 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2017-10-17 11:21:35,739 | Common.java | 73 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2017-10-17 11:21:35,740 | Common.java | 73 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2017-10-17 11:21:35,740 | Common.java | 73 | Element time out set
+ INFO | 2017-10-17 11:21:35,740 | Common.java | 73 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2017-10-17 11:21:35,740 | Common.java | 73 | Test Case Name: TC_001
+ INFO | 2017-10-17 11:21:35,741 | Common.java | 73 | Getting value of TestDataFile from Test Configuration file : .\src\test\resources\TestData.xls
+ INFO | 2017-10-17 11:21:35,814 | Common.java | 73 | Test Data Set Name: TC_001
+ INFO | 2017-10-17 11:21:35,815 | Common.java | 73 | Execution Flag: Execute
+ INFO | 2017-10-17 11:21:35,815 | Common.java | 73 | Test Data Set Name: TC_001_01
+ INFO | 2017-10-17 11:21:35,818 | Common.java | 73 | Execution Flag: YES
+ INFO | 2017-10-17 11:21:35,819 | Common.java | 73 | Test Data Set Name: TC_001_02
+ INFO | 2017-10-17 11:21:35,819 | Common.java | 73 | Execution Flag: YES
+ INFO | 2017-10-17 11:21:35,819 | Common.java | 73 | Test Data Set Name: 
+ INFO | 2017-10-17 11:21:35,819 | Common.java | 73 | Execution Flag: 
+ INFO | 2017-10-17 11:21:35,830 | Common.java | 73 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2017-10-17 11:21:39,923 | Common.java | 73 | Getting value of url from Test Configuration file : http://www.adactin.com/HotelApp/
+ INFO | 2017-10-17 11:21:57,000 | Common.java | 73 | Entered text -> prakashs
+ERROR | 2017-10-17 11:21:57,001 | Common.java | 88 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-10-17 11:21:57,001 | Common.java | 73 | Entered Username ->prakashs
+ERROR | 2017-10-17 11:21:57,001 | Common.java | 88 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-10-17 11:21:57,310 | Common.java | 73 | Entered text -> prakash
+ERROR | 2017-10-17 11:21:57,310 | Common.java | 88 | Invalid log Type :PASS. Unable to log the message.
+ INFO | 2017-10-17 11:21:57,310 | Common.java | 73 | Entered Password ->prakashs
+ERROR | 2017-10-17 11:21:57,311 | Common.java | 88 | Invalid log Type :PASS. Unable to log the message.
